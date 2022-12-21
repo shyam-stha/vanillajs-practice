@@ -11,31 +11,75 @@
     <div class="container">
       <header class="header">
         <nav class="navbar">
-            <span>samarBLOG</span>
-            <div class="list">
-                <li class="item">Home</li>
-                <li class="item">Article</li>
-                <li class="item">Popular</li>
-            </div>
-            <div class="avatar">
-                <img src="jf" alt="AVATAR">
-            </div>
+          <div class="logo">BLOG</div>
+          <div class="list">
+            <li class="item">Blogs</li>
+            <li class="item">Popular</li>
+          </div>
+          <div class="avatar">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/924/924915.png"
+              alt="AVATAR"
+            />
+          </div>
         </nav>
       </header>
-      <article class="article">
+      <div class="hr"></div>
 
-      </article>
-      <footer class="footer">
-        <div class="footer-text">
-            @2022 samarBLOG. All rights reserved
-        </div>
-        <div class="social-icons">
-            <img src="" alt="fb">
-            <img src="" alt="tw">
-            <img src="" alt="li">
-        </div>
-      </footer>
+      <button class="blog-post__button" id="createBtn">Create Blog</button>
+
+      <div class="form">
+        <input type="text" placeholder="Blog title" />
+        <input type="text" placeholder="Blog image link" />
+        <input type="text" placeholder="Author name" />
+        <input type="text" placeholder="Author image link" />
+        <textarea type="text " rows="4" cols="50">
+        Description Here...
+        </textarea>
+        <input type="date" placeholder="Created Date" />
+        <input type="text" placeholder="Category" />
+
+        <input type="button" value="Post Blog" id="postBlog" />
+      </div>
+      <section class="top-image">
+        <img
+          src="https://media.istockphoto.com/id/1257568481/vector/program-code-create-on-laptop-on-programmer-workplace-coding-optimization-and-testing-app.jpg?s=612x612&w=0&k=20&c=-mAtowABw5Ofdn3Q120nlblkioCrqKSZX5uzjifnqIg="
+          alt="Landing Image"
+        />
+      </section>
+
+      <div id="all">
+        <span>All</span>
+        <section class="all"></section>
+      </div>
+
+      <div id="featured">
+        <span>Featured</span>
+        <section class="featured"></section>
+      </div>
+      <div id="popular">
+        <span>Popular</span>
+        <section class="popular"></section>
+      </div>
     </div>
+
+    <!-- <footer class="footer">
+      <div class="footer-text">@2022 samarBLOG. All rights reserved</div>
+      <div class="social-icons">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+          alt="FaceBook"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3670/3670127.png"
+          alt="Twitter"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1377/1377213.png"
+          alt="LinkedIn"
+        />
+      </div>
+    </footer> -->
   </body>
   <script type="module" src="blog.js"></script>
 </html>

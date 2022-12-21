@@ -1,1 +1,190 @@
-/*# sourceMappingURL=blog.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  border: o;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+body .container {
+  width: 70vw;
+}
+body .container .header {
+  display: flex;
+  align-items: center;
+}
+body .container .header .navbar {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .header .navbar .logo {
+  color: black;
+}
+body .container .header .navbar .list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+body .container .header .navbar .avatar img {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+body .container .hr {
+  background-color: rgba(42, 29, 223, 0.695);
+  height: 0.8px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+body .container .blog-post__button {
+  padding: 10px 20px;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+body .container .blog-post__button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.375);
+  color: black;
+}
+body .container .blog-post__button:active {
+  box-shadow: 0 2px 4px 0 black;
+  transform: translateY(5px);
+}
+body .container .form {
+  height: 60vh;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+body .container .form input {
+  padding: 10px;
+}
+body .container .top-image img {
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .container #all span,
+body .container #featured span,
+body .container #popular span {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 10px;
+  border-bottom: 2px solid black;
+}
+body .container .featured,
+body .container .popular,
+body .container .all {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 20px;
+}
+body .container .featured .blog,
+body .container .popular .blog,
+body .container .all .blog {
+  display: flex;
+  border: 1px solid rgba(187, 157, 157, 0.671);
+  width: 500px;
+  height: 300px;
+}
+body .container .featured .blog .img-wrapper img,
+body .container .popular .blog .img-wrapper img,
+body .container .all .blog .img-wrapper img {
+  width: 200px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .container .featured .blog .blog-wrapper,
+body .container .popular .blog .blog-wrapper,
+body .container .all .blog .blog-wrapper {
+  padding: 20px 30px;
+}
+body .container .featured .blog .blog-wrapper #deleteBtn,
+body .container .popular .blog .blog-wrapper #deleteBtn,
+body .container .all .blog .blog-wrapper #deleteBtn {
+  padding: 5px;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.584);
+  color: white;
+  margin-left: 190px;
+  margin-bottom: 2px;
+}
+body .container .featured .blog .blog-wrapper .title,
+body .container .popular .blog .blog-wrapper .title,
+body .container .all .blog .blog-wrapper .title {
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+body .container .featured .blog .blog-wrapper .description,
+body .container .popular .blog .blog-wrapper .description,
+body .container .all .blog .blog-wrapper .description {
+  font-size: 0.9em;
+  color: rgba(46, 32, 32, 0.696);
+}
+body .container .featured .blog .blog-wrapper .author,
+body .container .popular .blog .blog-wrapper .author,
+body .container .all .blog .blog-wrapper .author {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+body .container .featured .blog .blog-wrapper .author .author-img,
+body .container .popular .blog .blog-wrapper .author .author-img,
+body .container .all .blog .blog-wrapper .author .author-img {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .container .featured .blog .blog-wrapper .author .author-name,
+body .container .popular .blog .blog-wrapper .author .author-name,
+body .container .all .blog .blog-wrapper .author .author-name {
+  font-size: 1em;
+}
+body .container .featured .blog .blog-wrapper .author .date,
+body .container .popular .blog .blog-wrapper .author .date,
+body .container .all .blog .blog-wrapper .author .date {
+  font-size: 0.8em;
+}
+body .container .featured .blog .blog-wrapper .description,
+body .container .popular .blog .blog-wrapper .description,
+body .container .all .blog .blog-wrapper .description {
+  text-align: justify;
+  margin-top: 30px;
+}
+body .footer {
+  display: flex;
+  width: 70vw;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  position: absolute;
+  margin-top: 20px;
+}
+body .footer .social-icons img {
+  height: 20px;
+  width: 20px;
+}/*# sourceMappingURL=blog.css.map */
