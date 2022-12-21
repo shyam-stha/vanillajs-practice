@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taskify</title>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        display: flex;
+        height: 40vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      "
+    >
+      <h3 class="heading" id="heading">Todo using JavaScript</h3>
+      <div id="wrapper" class="wrapper">
+        <input
+          type="text"
+          id="task__input"
+          class="input"
+          name="task"
+          placeholder="Enter tasks"
+          style="
+            display: inline-flex;
+            width: 20vw;
+            padding: 5px 20px;
+            border-radius: 5px;
+          "
+        />
+        <span id="error"></span>
+        <input
+          type="submit"
+          id="submit__button"
+          class="button"
+          value="Add Task"
+          style="padding: 5px"
+        />
+      </div>
+      <p>Task List</p>
+      <div id="todo-list"></div>
+    </div>
+    <!-- <script src="todo.js"></script> -->
+    <script src="todoNextWay.js"></script>
+  </body>
+</html>
